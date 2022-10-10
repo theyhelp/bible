@@ -23,7 +23,7 @@
     },
     "bundle": {
       "active": true,
-      "category": "Evangelical media",
+      "category": "Lifestyle",
       "copyright": "Life.Church",
       "deb": {
         "depends": []
