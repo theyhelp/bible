@@ -1,5 +1,5 @@
 [package]
-name = "bible"
+name = "Bible"
 version = "1.0.0"
 description = "Bring the beauty and truth of the Bible into everyday life."
 authors = ["Life.Church"]
