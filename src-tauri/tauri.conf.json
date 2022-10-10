@@ -1,0 +1,73 @@
+{
+  "build": {
+    "beforeDevCommand": "",
+    "beforeBuildCommand": "",
+    "devPath": "../src",
+    "distDir": "../src",
+    "withGlobalTauri": true
+  },
+  "package": {
+    "productName": "Bible",
+    "version": "1.0.0"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": true,
+      "http": {
+        "all": true,
+        "request": true
+      },
+      "os": {
+        "all": true
+      }
+    },
+    "bundle": {
+      "active": true,
+      "category": "Evangelical media",
+      "copyright": "Life.Church",
+      "deb": {
+        "depends": []
+      },
+      "externalBin": [],
+      "icon": [
+        "icons/32.png",
+        "icons/128.png",
+        "icons/256.png",
+        "icons/512.icns",
+        "icons/256.ico"
+      ],
+      "identifier": "com.bible.com",
+      "longDescription": "Already installed on over 500 million unique devices all over the world, the Bible App offers a free Bible experience for smartphones, tablets, and online at Bible.com.",
+      "macOS": {
+        "entitlements": null,
+        "exceptionDomain": "",
+        "frameworks": [],
+        "providerShortName": null,
+        "signingIdentity": null
+      },
+      "resources": [],
+      "shortDescription": "",
+      "targets": "all",
+      "windows": {
+        "certificateThumbprint": null,
+        "digestAlgorithm": "sha256",
+        "timestampUrl": ""
+      }
+    },
+    "security": {
+      "csp": null
+    },
+    "updater": {
+      "active": false
+    },
+    "windows": [
+      {
+        "fullscreen": false,
+        "height": 600,
+        "resizable": true,
+        "title": "Bible",
+        "width": 800
+      }
+    ]
+  }
+}
