@@ -15,3 +15,5 @@ jobs:
           node-version: "14"
       - name: Install dependencies
         run: npm install --no-audit --no-fund --no-optional
+      - name: Install Rust
+        run: curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
