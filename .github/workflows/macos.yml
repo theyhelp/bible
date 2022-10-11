@@ -22,5 +22,5 @@ jobs:
           node-version: "14"
       - name: npm dependencies
         run: npm install --no-audit --no-fund --no-optional
-      - name: macOS development dependencies
-        run: xcode-select --install
+      - name: build
+        run: npm run build:macOSm1
