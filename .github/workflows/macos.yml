@@ -23,6 +23,6 @@ jobs:
       - name: npm dependencies
         run: npm install --no-audit --no-fund --no-optional
       - name: component rust-std
-        run: rustup target add x86_64-apple-darwin
+        run: rustup target add aarch64-apple-darwin
       - name: build universal
         run: npm run build:macOS-universal
