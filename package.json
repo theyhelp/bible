@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "tauri dev",
-    "build:macOSm1": "tauri build --target aarch64-apple-darwin"
+    "build:macOS-silicon": "tauri build --target aarch64-apple-darwin",
+    "build:macOS-universal": "tauri build --target universal-apple-darwin"
   },
   "devDependencies": {
     "@tauri-apps/cli": "1.1.0"
