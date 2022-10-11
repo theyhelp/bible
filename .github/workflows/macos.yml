@@ -5,7 +5,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: macos-12
+    runs-on: self-hosted
     steps:
       - uses: actions/checkout@v2
         with:
