@@ -8,6 +8,6 @@
     "build:macOSm1": "tauri build --target aarch64-apple-darwin"
   },
   "devDependencies": {
-    "@tauri-apps/cli": "^1.1.0"
+    "@tauri-apps/cli": "1.1.0"
   }
 }
